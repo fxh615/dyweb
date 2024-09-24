@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@babel/generator": "^7.25.6",
+    "@babel/parser": "^7.25.6",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "pm2": "^5.4.2"
+  },
+  "name": "qxvm",
+  "version": "1.0.0",
+  "description": "dyweb",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node z_working/demoServerVm.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
