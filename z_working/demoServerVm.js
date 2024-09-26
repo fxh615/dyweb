@@ -54,6 +54,7 @@ let result = QXVM_GENERATE.sanbox(js_code, "get_data", user_config);
 
 QXVM_GENERATE.registerCallback('get', '/demo', 2023, function (req, res){
     //setTimeout(function () {
-        res.send(result.get_data())
+    console.log(req.query)
+    res.send(result.get_data())
     //},5000)
 })
